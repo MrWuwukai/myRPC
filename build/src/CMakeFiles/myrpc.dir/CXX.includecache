@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/MyRPC.h
+memory
+-
+
+../src/include/MyRPCConfig.h
+unordered_map
+-
+string
+-
+
+../src/include/MyRPCProvider.h
+google/protobuf/service.h
+../src/include/google/protobuf/service.h
+
+/home/bzy/Documents/code/rpc/src/MyRPC.cpp
+MyRPC.h
+/home/bzy/Documents/code/rpc/src/MyRPC.h
+MyRPCConfig.h
+/home/bzy/Documents/code/rpc/src/MyRPCConfig.h
+iostream
+-
+string
+-
+unistd.h
+-
+
+/home/bzy/Documents/code/rpc/src/MyRPCConfig.cpp
+MyRPCConfig.h
+/home/bzy/Documents/code/rpc/src/MyRPCConfig.h
+iostream
+-
+
+/home/bzy/Documents/code/rpc/src/MyRPCProvider.cpp
+MyRPCProvider.h
+/home/bzy/Documents/code/rpc/src/MyRPCProvider.h
+
