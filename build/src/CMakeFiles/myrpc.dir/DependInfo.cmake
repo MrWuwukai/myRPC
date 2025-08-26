@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/bzy/Documents/code/rpc/src/MyRPC.cpp" "/home/bzy/Documents/code/rpc/build/src/CMakeFiles/myrpc.dir/MyRPC.cpp.o"
   "/home/bzy/Documents/code/rpc/src/MyRPCConfig.cpp" "/home/bzy/Documents/code/rpc/build/src/CMakeFiles/myrpc.dir/MyRPCConfig.cpp.o"
   "/home/bzy/Documents/code/rpc/src/MyRPCProvider.cpp" "/home/bzy/Documents/code/rpc/build/src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o"
+  "/home/bzy/Documents/code/rpc/src/message.pb.cc" "/home/bzy/Documents/code/rpc/build/src/CMakeFiles/myrpc.dir/message.pb.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

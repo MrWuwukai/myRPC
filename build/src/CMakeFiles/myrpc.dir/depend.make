@@ -8,6 +8,12 @@ src/CMakeFiles/myrpc.dir/MyRPC.cpp.o: ../src/MyRPC.cpp
 src/CMakeFiles/myrpc.dir/MyRPCConfig.cpp.o: ../src/include/MyRPCConfig.h
 src/CMakeFiles/myrpc.dir/MyRPCConfig.cpp.o: ../src/MyRPCConfig.cpp
 
+src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o: ../src/include/MyRPC.h
+src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o: ../src/include/MyRPCConfig.h
 src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o: ../src/include/MyRPCProvider.h
 src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o: ../src/MyRPCProvider.cpp
+src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o: ../src/message.pb.h
+
+src/CMakeFiles/myrpc.dir/message.pb.cc.o: ../src/message.pb.cc
+src/CMakeFiles/myrpc.dir/message.pb.cc.o: ../src/message.pb.h
 

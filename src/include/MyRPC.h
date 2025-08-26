@@ -2,6 +2,8 @@
 
 #include <memory>
 
+#include "MyRPCConfig.h"
+
 class MyRPC
 {
 public:
@@ -11,9 +13,13 @@ public:
         static MyRPC app;
         return app;
     }
+    static MyRPCConfig &GetConfig()
+    {
+        return m_config;
+    }
 
 private:
-    // static std::unique_ptr<MyRPCConfig> m_config;
+    static MyRPCConfig &m_config;
     MyRPC() {}
     ~MyRPC() {}
     MyRPC(const MyRPC &) = delete;

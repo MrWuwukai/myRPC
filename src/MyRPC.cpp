@@ -6,7 +6,7 @@
 
 #include <unistd.h>
 
-// std::unique_ptr<MyRPCConfig> MyRPC::m_config = nullptr;
+MyRPCConfig &MyRPC::m_config = MyRPCConfig::GetInstance();
 
 void ShowArgsHelp()
 {
@@ -43,7 +43,6 @@ void MyRPC::Init(int argc, char **argv)
     }
 
     // 开始加载配置文件了
-    MyRPCConfig &config = MyRPCConfig::GetInstance();
-    config.LoadConfigFile(config_file.c_str());
-    std::cout << config.Load("zookeeperip") << std::endl;
+    m_config.LoadConfigFile(config_file.c_str());
+    std::cout << m_config.Load("zookeeperip") << std::endl;
 }

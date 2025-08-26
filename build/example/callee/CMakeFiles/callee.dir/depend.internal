@@ -7,5 +7,6 @@ example/callee/CMakeFiles/callee.dir/__/user.pb.cc.o
 example/callee/CMakeFiles/callee.dir/userservice.cpp.o
  ../example/user.pb.h
  ../src/include/MyRPC.h
+ ../src/include/MyRPCConfig.h
  ../src/include/MyRPCProvider.h
  /home/bzy/Documents/code/rpc/example/callee/userservice.cpp

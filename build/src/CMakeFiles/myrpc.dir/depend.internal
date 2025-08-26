@@ -9,5 +9,11 @@ src/CMakeFiles/myrpc.dir/MyRPCConfig.cpp.o
  ../src/include/MyRPCConfig.h
  /home/bzy/Documents/code/rpc/src/MyRPCConfig.cpp
 src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o
+ ../src/include/MyRPC.h
+ ../src/include/MyRPCConfig.h
  ../src/include/MyRPCProvider.h
  /home/bzy/Documents/code/rpc/src/MyRPCProvider.cpp
+ /home/bzy/Documents/code/rpc/src/message.pb.h
+src/CMakeFiles/myrpc.dir/message.pb.cc.o
+ /home/bzy/Documents/code/rpc/src/message.pb.cc
+ /home/bzy/Documents/code/rpc/src/message.pb.h

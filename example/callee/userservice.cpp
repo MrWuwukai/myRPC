@@ -21,20 +21,20 @@ public:
                ::WWK::LoginResponse *response,
                ::google::protobuf::Closure *done) override
     {
-        // 框架给业务上报了请求参数LoginRequest，应用获取相应数据做本地业务
+        // 1. 从Request获取参数的值
         std::string name = request->name();
         std::string pwd = request->pwd();
 
-        // 做本地业务
+        // 2. 执行本地服务，并获取返回值
         bool login_result = Login(name, pwd);
 
-        // 把响应写入 包括错误码、错误消息、返回值
+        // 3. 用上面的返回值填写Response
         WWK::ResultCode *code = response->mutable_result();
         code->set_errcode(0);
         code->set_errmsg("");
         response->set_success(login_result);
 
-        // 执行回调操作
+        // 4. 一个回调，把Response发回
         done->Run();
     }
 };

@@ -6,6 +6,7 @@ example/callee/CMakeFiles/callee.dir/__/user.pb.cc.o: ../example/user.pb.h
 
 example/callee/CMakeFiles/callee.dir/userservice.cpp.o: ../example/user.pb.h
 example/callee/CMakeFiles/callee.dir/userservice.cpp.o: ../src/include/MyRPC.h
+example/callee/CMakeFiles/callee.dir/userservice.cpp.o: ../src/include/MyRPCConfig.h
 example/callee/CMakeFiles/callee.dir/userservice.cpp.o: ../src/include/MyRPCProvider.h
 example/callee/CMakeFiles/callee.dir/userservice.cpp.o: ../example/callee/userservice.cpp
 

@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/myrpc.dir/MyRPC.cpp.o"
   "CMakeFiles/myrpc.dir/MyRPCConfig.cpp.o"
   "CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o"
+  "CMakeFiles/myrpc.dir/message.pb.cc.o"
 )
 
 # Per-language clean rules from dependency scanning.

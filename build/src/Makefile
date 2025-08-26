@@ -206,6 +206,33 @@ MyRPCProvider.cpp.s:
 	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.s
 .PHONY : MyRPCProvider.cpp.s
 
+message.pb.o: message.pb.cc.o
+
+.PHONY : message.pb.o
+
+# target to build an object file
+message.pb.cc.o:
+	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/message.pb.cc.o
+.PHONY : message.pb.cc.o
+
+message.pb.i: message.pb.cc.i
+
+.PHONY : message.pb.i
+
+# target to preprocess a source file
+message.pb.cc.i:
+	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/message.pb.cc.i
+.PHONY : message.pb.cc.i
+
+message.pb.s: message.pb.cc.s
+
+.PHONY : message.pb.s
+
+# target to generate assembly for a file
+message.pb.cc.s:
+	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/message.pb.cc.s
+.PHONY : message.pb.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -224,6 +251,9 @@ help:
 	@echo "... MyRPCProvider.o"
 	@echo "... MyRPCProvider.i"
 	@echo "... MyRPCProvider.s"
+	@echo "... message.pb.o"
+	@echo "... message.pb.i"
+	@echo "... message.pb.s"
 .PHONY : help
 
 
