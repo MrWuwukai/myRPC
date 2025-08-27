@@ -70,9 +70,22 @@ src/CMakeFiles/myrpc.dir/MyRPC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myrpc.dir/MyRPC.cpp.s"
 	cd /home/bzy/Documents/code/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bzy/Documents/code/rpc/src/MyRPC.cpp -o CMakeFiles/myrpc.dir/MyRPC.cpp.s
 
+src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o: src/CMakeFiles/myrpc.dir/flags.make
+src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o: ../src/MyRPCChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bzy/Documents/code/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o"
+	cd /home/bzy/Documents/code/rpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o -c /home/bzy/Documents/code/rpc/src/MyRPCChannel.cpp
+
+src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myrpc.dir/MyRPCChannel.cpp.i"
+	cd /home/bzy/Documents/code/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bzy/Documents/code/rpc/src/MyRPCChannel.cpp > CMakeFiles/myrpc.dir/MyRPCChannel.cpp.i
+
+src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myrpc.dir/MyRPCChannel.cpp.s"
+	cd /home/bzy/Documents/code/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bzy/Documents/code/rpc/src/MyRPCChannel.cpp -o CMakeFiles/myrpc.dir/MyRPCChannel.cpp.s
+
 src/CMakeFiles/myrpc.dir/MyRPCConfig.cpp.o: src/CMakeFiles/myrpc.dir/flags.make
 src/CMakeFiles/myrpc.dir/MyRPCConfig.cpp.o: ../src/MyRPCConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bzy/Documents/code/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/myrpc.dir/MyRPCConfig.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bzy/Documents/code/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/myrpc.dir/MyRPCConfig.cpp.o"
 	cd /home/bzy/Documents/code/rpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myrpc.dir/MyRPCConfig.cpp.o -c /home/bzy/Documents/code/rpc/src/MyRPCConfig.cpp
 
 src/CMakeFiles/myrpc.dir/MyRPCConfig.cpp.i: cmake_force
@@ -83,9 +96,22 @@ src/CMakeFiles/myrpc.dir/MyRPCConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myrpc.dir/MyRPCConfig.cpp.s"
 	cd /home/bzy/Documents/code/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bzy/Documents/code/rpc/src/MyRPCConfig.cpp -o CMakeFiles/myrpc.dir/MyRPCConfig.cpp.s
 
+src/CMakeFiles/myrpc.dir/MyRPCController.cpp.o: src/CMakeFiles/myrpc.dir/flags.make
+src/CMakeFiles/myrpc.dir/MyRPCController.cpp.o: ../src/MyRPCController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bzy/Documents/code/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/myrpc.dir/MyRPCController.cpp.o"
+	cd /home/bzy/Documents/code/rpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myrpc.dir/MyRPCController.cpp.o -c /home/bzy/Documents/code/rpc/src/MyRPCController.cpp
+
+src/CMakeFiles/myrpc.dir/MyRPCController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myrpc.dir/MyRPCController.cpp.i"
+	cd /home/bzy/Documents/code/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bzy/Documents/code/rpc/src/MyRPCController.cpp > CMakeFiles/myrpc.dir/MyRPCController.cpp.i
+
+src/CMakeFiles/myrpc.dir/MyRPCController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myrpc.dir/MyRPCController.cpp.s"
+	cd /home/bzy/Documents/code/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bzy/Documents/code/rpc/src/MyRPCController.cpp -o CMakeFiles/myrpc.dir/MyRPCController.cpp.s
+
 src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o: src/CMakeFiles/myrpc.dir/flags.make
 src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o: ../src/MyRPCProvider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bzy/Documents/code/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bzy/Documents/code/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o"
 	cd /home/bzy/Documents/code/rpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o -c /home/bzy/Documents/code/rpc/src/MyRPCProvider.cpp
 
 src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.i: cmake_force
@@ -98,7 +124,7 @@ src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.s: cmake_force
 
 src/CMakeFiles/myrpc.dir/message.pb.cc.o: src/CMakeFiles/myrpc.dir/flags.make
 src/CMakeFiles/myrpc.dir/message.pb.cc.o: ../src/message.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bzy/Documents/code/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/myrpc.dir/message.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bzy/Documents/code/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/myrpc.dir/message.pb.cc.o"
 	cd /home/bzy/Documents/code/rpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myrpc.dir/message.pb.cc.o -c /home/bzy/Documents/code/rpc/src/message.pb.cc
 
 src/CMakeFiles/myrpc.dir/message.pb.cc.i: cmake_force
@@ -112,7 +138,9 @@ src/CMakeFiles/myrpc.dir/message.pb.cc.s: cmake_force
 # Object files for target myrpc
 myrpc_OBJECTS = \
 "CMakeFiles/myrpc.dir/MyRPC.cpp.o" \
+"CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o" \
 "CMakeFiles/myrpc.dir/MyRPCConfig.cpp.o" \
+"CMakeFiles/myrpc.dir/MyRPCController.cpp.o" \
 "CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o" \
 "CMakeFiles/myrpc.dir/message.pb.cc.o"
 
@@ -120,12 +148,14 @@ myrpc_OBJECTS = \
 myrpc_EXTERNAL_OBJECTS =
 
 ../lib/libmyrpc.so: src/CMakeFiles/myrpc.dir/MyRPC.cpp.o
+../lib/libmyrpc.so: src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o
 ../lib/libmyrpc.so: src/CMakeFiles/myrpc.dir/MyRPCConfig.cpp.o
+../lib/libmyrpc.so: src/CMakeFiles/myrpc.dir/MyRPCController.cpp.o
 ../lib/libmyrpc.so: src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o
 ../lib/libmyrpc.so: src/CMakeFiles/myrpc.dir/message.pb.cc.o
 ../lib/libmyrpc.so: src/CMakeFiles/myrpc.dir/build.make
 ../lib/libmyrpc.so: src/CMakeFiles/myrpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bzy/Documents/code/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library ../../lib/libmyrpc.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bzy/Documents/code/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library ../../lib/libmyrpc.so"
 	cd /home/bzy/Documents/code/rpc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myrpc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

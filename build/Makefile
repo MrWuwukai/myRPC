@@ -136,6 +136,19 @@ callee/fast:
 	$(MAKE) -f example/callee/CMakeFiles/callee.dir/build.make example/callee/CMakeFiles/callee.dir/build
 .PHONY : callee/fast
 
+#=============================================================================
+# Target rules for targets named caller
+
+# Build rule for target.
+caller: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 caller
+.PHONY : caller
+
+# fast build rule for target.
+caller/fast:
+	$(MAKE) -f example/caller/CMakeFiles/caller.dir/build.make example/caller/CMakeFiles/caller.dir/build
+.PHONY : caller/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -146,6 +159,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... myrpc"
 	@echo "... callee"
+	@echo "... caller"
 .PHONY : help
 
 

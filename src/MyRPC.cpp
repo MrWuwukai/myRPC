@@ -44,5 +44,5 @@ void MyRPC::Init(int argc, char **argv)
 
     // 开始加载配置文件了
     m_config.LoadConfigFile(config_file.c_str());
-    std::cout << m_config.Load("zookeeperip") << std::endl;
+    std::cout << "Init over" << std::endl;
 }

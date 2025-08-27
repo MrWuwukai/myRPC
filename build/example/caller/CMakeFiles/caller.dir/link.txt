@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/caller.dir/userclient.cpp.o CMakeFiles/caller.dir/__/user.pb.cc.o  -o ../../../bin/caller   -L/home/bzy/Documents/code/rpc/lib  -Wl,-rpath,/home/bzy/Documents/code/rpc/lib ../../../lib/libmyrpc.so -lprotobuf -lmuduo_net -lprotobuf 

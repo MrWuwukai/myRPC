@@ -35,7 +35,7 @@ void MyRPCProvider::Run()
     std::string ip = MyRPC::GetInstance().GetConfig().Load("rpcserverip");
     uint16_t port = stoi(MyRPC::GetInstance().GetConfig().Load("rpcserverport"));
     muduo::net::InetAddress address(ip, port);
-    // std::cout << port << std::endl;
+    std::cout << ip << " " << port << std::endl;
 
     // 2. 启动TCP服务器
     // 2.1 创建TcpServer对象
@@ -57,6 +57,7 @@ void MyRPCProvider::Run()
 
 void MyRPCProvider::connCb(const muduo::net::TcpConnectionPtr &conn)
 {
+    std::cout << "somebody conned" << std::endl;
     if (!conn->connected())
     {
         conn->shutdown();
@@ -98,6 +99,7 @@ void MyRPCProvider::messageCb(const muduo::net::TcpConnectionPtr &conn, muduo::n
 
     // 4. 获取args
     std::string args_str = recv_buf.substr(4 + header_size, args_size);
+    std::cout << args_str << std::endl;
 
     // 5. 获取service对象和method对象
     auto it = m_serviceMap.find(service_name);

@@ -152,6 +152,33 @@ MyRPC.cpp.s:
 	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/MyRPC.cpp.s
 .PHONY : MyRPC.cpp.s
 
+MyRPCChannel.o: MyRPCChannel.cpp.o
+
+.PHONY : MyRPCChannel.o
+
+# target to build an object file
+MyRPCChannel.cpp.o:
+	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o
+.PHONY : MyRPCChannel.cpp.o
+
+MyRPCChannel.i: MyRPCChannel.cpp.i
+
+.PHONY : MyRPCChannel.i
+
+# target to preprocess a source file
+MyRPCChannel.cpp.i:
+	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.i
+.PHONY : MyRPCChannel.cpp.i
+
+MyRPCChannel.s: MyRPCChannel.cpp.s
+
+.PHONY : MyRPCChannel.s
+
+# target to generate assembly for a file
+MyRPCChannel.cpp.s:
+	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.s
+.PHONY : MyRPCChannel.cpp.s
+
 MyRPCConfig.o: MyRPCConfig.cpp.o
 
 .PHONY : MyRPCConfig.o
@@ -178,6 +205,33 @@ MyRPCConfig.s: MyRPCConfig.cpp.s
 MyRPCConfig.cpp.s:
 	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/MyRPCConfig.cpp.s
 .PHONY : MyRPCConfig.cpp.s
+
+MyRPCController.o: MyRPCController.cpp.o
+
+.PHONY : MyRPCController.o
+
+# target to build an object file
+MyRPCController.cpp.o:
+	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/MyRPCController.cpp.o
+.PHONY : MyRPCController.cpp.o
+
+MyRPCController.i: MyRPCController.cpp.i
+
+.PHONY : MyRPCController.i
+
+# target to preprocess a source file
+MyRPCController.cpp.i:
+	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/MyRPCController.cpp.i
+.PHONY : MyRPCController.cpp.i
+
+MyRPCController.s: MyRPCController.cpp.s
+
+.PHONY : MyRPCController.s
+
+# target to generate assembly for a file
+MyRPCController.cpp.s:
+	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/MyRPCController.cpp.s
+.PHONY : MyRPCController.cpp.s
 
 MyRPCProvider.o: MyRPCProvider.cpp.o
 
@@ -245,9 +299,15 @@ help:
 	@echo "... MyRPC.o"
 	@echo "... MyRPC.i"
 	@echo "... MyRPC.s"
+	@echo "... MyRPCChannel.o"
+	@echo "... MyRPCChannel.i"
+	@echo "... MyRPCChannel.s"
 	@echo "... MyRPCConfig.o"
 	@echo "... MyRPCConfig.i"
 	@echo "... MyRPCConfig.s"
+	@echo "... MyRPCController.o"
+	@echo "... MyRPCController.i"
+	@echo "... MyRPCController.s"
 	@echo "... MyRPCProvider.o"
 	@echo "... MyRPCProvider.i"
 	@echo "... MyRPCProvider.s"

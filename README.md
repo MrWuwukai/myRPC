@@ -1,9 +1,11 @@
+```
 proto:
 protoc XX.proto --cpp_out=./
 
 make and excute:
 ./autobuild.sh
-bin/callee -i bin/rpc.conf
+callee: bin/callee -i bin/rpc.conf
+caller: bin/caller -i bin/rpc.conf
 
 git:
 git add .
@@ -56,3 +58,7 @@ method1（登录） method2（注册）   method1（存背包）   method2（检
     1. response进行序列化
     2. 序列化成功后，通过网络把rpc方法执行的结果发送会rpc的调用方
     3. 由rpcprovider主动断开连接
+
+
+
+```
