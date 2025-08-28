@@ -41,7 +41,8 @@ method1（登录） method2（注册）   method1（存背包）   method2（检
   2. 启动TCP服务器（muduo）
     1. 创建TcpServer对象
     2. 绑定连接回调（connCb，没用的）和消息读写回调方法（messageCb）
-    3. 设置muduo库的线程数量、启动网络服务
+    3. 【ZK】把当前RPC节点上要发布的服务全部注册到Zookeeper上面，让RPC caller可以从Zookeeper上发现服务；service_name设置为永久性节点，method_name设置为临时性节点
+    4. 设置muduo库的线程数量、启动网络服务
   3. 阻塞等待被连接、被调用
 5. 等待
 6. 远程连接来了，执行messageCb回调，在此回调中：
@@ -59,6 +60,19 @@ method1（登录） method2（注册）   method1（存背包）   method2（检
     2. 序列化成功后，通过网络把rpc方法执行的结果发送会rpc的调用方
     3. 由rpcprovider主动断开连接
 
+调用流程：
+1. 框架初始化
+2. 创建Stub对象，传入channel
+3. 创建请求、请求参数、创建响应、创建Controller（可选）
+4. 发起调用，其本质为MprpcChannel::callmethod
+  1. 从参数中获取service_name、method_name
+  2. 将args序列化，并获取args_size
+  3. 将请求头（service_name、method_name、args_size）序列化，再在最前面添加请求头的长度
+  4. 将最终的请求头的长度、请求头、args都拼接起来，预备发送
+  5. 原生socket库把请求发出去
+    1. 【ZK】发请求时的IP+端口，需要查询Zookeeper上该服务在哪儿
+  6. 接收rpc请求的返回值，反序列化，并写入response
+5. 一次rpc调用完成，从response读调用的结果
 
 
 ```

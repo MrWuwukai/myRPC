@@ -10,6 +10,7 @@ src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o
  ../src/include/MyRPCChannel.h
  ../src/include/MyRPCConfig.h
  ../src/include/MyRPCController.h
+ ../src/include/MyZookeeper.h
  ../src/include/message.pb.h
  /home/bzy/Documents/code/rpc/src/MyRPCChannel.cpp
 src/CMakeFiles/myrpc.dir/MyRPCConfig.cpp.o
@@ -22,8 +23,14 @@ src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o
  ../src/include/MyRPC.h
  ../src/include/MyRPCConfig.h
  ../src/include/MyRPCProvider.h
+ ../src/include/MyZookeeper.h
  ../src/include/message.pb.h
  /home/bzy/Documents/code/rpc/src/MyRPCProvider.cpp
+src/CMakeFiles/myrpc.dir/MyZookeeper.cpp.o
+ ../src/include/MyRPC.h
+ ../src/include/MyRPCConfig.h
+ ../src/include/MyZookeeper.h
+ /home/bzy/Documents/code/rpc/src/MyZookeeper.cpp
 src/CMakeFiles/myrpc.dir/message.pb.cc.o
  ../src/include/message.pb.h
  /home/bzy/Documents/code/rpc/src/message.pb.cc

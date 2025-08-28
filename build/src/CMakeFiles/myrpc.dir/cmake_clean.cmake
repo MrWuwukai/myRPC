@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/myrpc.dir/MyRPCConfig.cpp.o"
   "CMakeFiles/myrpc.dir/MyRPCController.cpp.o"
   "CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o"
+  "CMakeFiles/myrpc.dir/MyZookeeper.cpp.o"
   "CMakeFiles/myrpc.dir/message.pb.cc.o"
 )
 

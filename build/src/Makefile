@@ -260,6 +260,33 @@ MyRPCProvider.cpp.s:
 	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.s
 .PHONY : MyRPCProvider.cpp.s
 
+MyZookeeper.o: MyZookeeper.cpp.o
+
+.PHONY : MyZookeeper.o
+
+# target to build an object file
+MyZookeeper.cpp.o:
+	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/MyZookeeper.cpp.o
+.PHONY : MyZookeeper.cpp.o
+
+MyZookeeper.i: MyZookeeper.cpp.i
+
+.PHONY : MyZookeeper.i
+
+# target to preprocess a source file
+MyZookeeper.cpp.i:
+	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/MyZookeeper.cpp.i
+.PHONY : MyZookeeper.cpp.i
+
+MyZookeeper.s: MyZookeeper.cpp.s
+
+.PHONY : MyZookeeper.s
+
+# target to generate assembly for a file
+MyZookeeper.cpp.s:
+	cd /home/bzy/Documents/code/rpc/build && $(MAKE) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/MyZookeeper.cpp.s
+.PHONY : MyZookeeper.cpp.s
+
 message.pb.o: message.pb.cc.o
 
 .PHONY : message.pb.o
@@ -311,6 +338,9 @@ help:
 	@echo "... MyRPCProvider.o"
 	@echo "... MyRPCProvider.i"
 	@echo "... MyRPCProvider.s"
+	@echo "... MyZookeeper.o"
+	@echo "... MyZookeeper.i"
+	@echo "... MyZookeeper.s"
 	@echo "... message.pb.o"
 	@echo "... message.pb.i"
 	@echo "... message.pb.s"

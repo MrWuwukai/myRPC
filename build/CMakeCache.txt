@@ -216,7 +216,7 @@ MyRPC_BINARY_DIR:STATIC=/home/bzy/Documents/code/rpc/build
 MyRPC_SOURCE_DIR:STATIC=/home/bzy/Documents/code/rpc
 
 //Dependencies for the target
-myrpc_LIB_DEPENDS:STATIC=general;muduo_net;general;protobuf;
+myrpc_LIB_DEPENDS:STATIC=general;muduo_net;general;protobuf;general;pthread;general;zookeeper_mt;
 
 
 ########################

@@ -9,6 +9,7 @@ src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o: ../src/include/MyRPC.h
 src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o: ../src/include/MyRPCChannel.h
 src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o: ../src/include/MyRPCConfig.h
 src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o: ../src/include/MyRPCController.h
+src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o: ../src/include/MyZookeeper.h
 src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o: ../src/include/message.pb.h
 src/CMakeFiles/myrpc.dir/MyRPCChannel.cpp.o: ../src/MyRPCChannel.cpp
 
@@ -21,8 +22,14 @@ src/CMakeFiles/myrpc.dir/MyRPCController.cpp.o: ../src/MyRPCController.cpp
 src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o: ../src/include/MyRPC.h
 src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o: ../src/include/MyRPCConfig.h
 src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o: ../src/include/MyRPCProvider.h
+src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o: ../src/include/MyZookeeper.h
 src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o: ../src/include/message.pb.h
 src/CMakeFiles/myrpc.dir/MyRPCProvider.cpp.o: ../src/MyRPCProvider.cpp
+
+src/CMakeFiles/myrpc.dir/MyZookeeper.cpp.o: ../src/include/MyRPC.h
+src/CMakeFiles/myrpc.dir/MyZookeeper.cpp.o: ../src/include/MyRPCConfig.h
+src/CMakeFiles/myrpc.dir/MyZookeeper.cpp.o: ../src/include/MyZookeeper.h
+src/CMakeFiles/myrpc.dir/MyZookeeper.cpp.o: ../src/MyZookeeper.cpp
 
 src/CMakeFiles/myrpc.dir/message.pb.cc.o: ../src/include/message.pb.h
 src/CMakeFiles/myrpc.dir/message.pb.cc.o: ../src/message.pb.cc
